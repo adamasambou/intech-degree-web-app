@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/Intech-Logo.png">
-    <HelloWorld msg="Welcome to Adama Sambou's final year Project..."/>
+    <HelloWorld msg="Welcome to Adamaaaaa Sambou's final year Project..."/>
   </div>
 </template>
 
