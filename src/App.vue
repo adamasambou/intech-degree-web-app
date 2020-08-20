@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/Intech-Logo.png">
-    <HelloWorld msg="Welcome to Adama Sambou's final year Project..."/>
+    <HelloWorld msg="Welcome to Adaaamamaama Sambou's final year Project..."/>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default 
 {
-  name: 'Application',
+  name: 'App',
   components: {
     HelloWorld
   }
