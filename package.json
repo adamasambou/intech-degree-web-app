@@ -1,42 +1,70 @@
 {
-  "name": "intech-degree-web-app",
+  "name": "intech-degree",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "nuxt"
   },
   "dependencies": {
+    "@firebase/firestore": "^1.16.5",
+    "@mdi/font": "^4.9.95",
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "client-oauth2": "^4.3.3",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "edit-json-file": "^1.4.1",
+    "eslint": "^7.7.0",
+    "firebase": "^7.19.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "oauth": "^0.9.15",
+    "pdfmake": "^0.1.68",
+    "perf_hooks": "0.0.1",
+    "qrcode": "^1.4.4",
+    "register-service-worker": "^1.7.1",
+    "roboto-fontface": "*",
+    "vue": "^2.6.12",
+    "vue-qr": "^2.2.1",
+    "vue-router": "^3.4.3",
+    "vuelidate": "^0.7.5",
+    "vuetify": "^2.3.9",
+    "vuex": "^3.5.1",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "@types/node": "^12.12.54",
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-plugin-pwa": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "css-loader": "^3.6.0",
+    "file-loader": "^5.1.0",
+    "lint-staged": "^9.5.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-uikit": "^1.0.15",
+    "vue-cli-plugin-vuetify": "^2.0.7",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "last 2 versions"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
 }

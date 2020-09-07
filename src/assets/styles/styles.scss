@@ -1,0 +1,77 @@
+.intech-logo{
+	max-width: 60px;
+	max-height: 60px;
+	display: block;
+}
+
+#particle-container
+{
+	width: 100vw;
+	height: 90vh;
+	padding: 0px;
+	margin: 0px;
+	background: linear-gradient(90deg, #008dc8 0%, #019ca8 100%);
+	display: block;
+	overflow: hidden;
+}
+
+.intech-hero
+{
+	display: flex;
+	width: 100vw;
+	height:120vh;
+	position: absolute;
+	z-index: 2;
+	top: 8%;
+	background-image: url("../images/intech-homepage.png");
+	background-size: contain;;
+	align-items: center;
+	justify-content: center;
+}
+
+.intech-btn {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.intech-card
+{
+	min-width: 420px;
+	margin-top: 5%;
+}
+.student-button
+{
+	margin-right: 10px;
+}
+#progress-bar
+{
+	padding-top: 18%;
+}
+.column-space
+{
+	margin-top: 2rem;
+}
+.header-text
+{
+	color: #fff;
+	padding-top: .8rem;
+}
+.aqua
+{
+	background: #0AFCC5;
+	color: #0AFCC5;
+}
+.toolbar-header
+{
+	padding: 5px;
+}
+
+.the-footer
+{
+	width: 100vw !important;
+}
+
+.loader
+{
+	margin-left: 35%;
+}

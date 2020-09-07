@@ -1,5 +1,8 @@
-# intech-degree-web-app
+# intech-degree
 
+- hhg
+- g hg
+- hyh
 ## Project setup
 ```
 npm install
@@ -13,6 +16,11 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+```
+
+### Run your tests
+```
+npm run test
 ```
 
 ### Lints and fixes files
