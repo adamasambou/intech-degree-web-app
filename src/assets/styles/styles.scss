@@ -19,12 +19,14 @@
 {
 	display: flex;
 	width: 100vw;
-	height:120vh;
+	height:70vh;
 	position: absolute;
 	z-index: 2;
 	top: 8%;
-	background-image: url("../images/intech-homepage.png");
-	background-size: contain;;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("../images/Hero-2.png");
 	align-items: center;
 	justify-content: center;
 }
@@ -76,6 +78,7 @@
 	margin-left: 35%;
 }
 
-.footer-color{
-	background-color: #008dc8;
+.the-content
+{
+	min-height: 87%;
 }

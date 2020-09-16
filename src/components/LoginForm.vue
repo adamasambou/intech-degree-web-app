@@ -32,15 +32,15 @@
 					>
 						Sign In
 					</v-btn>
-					<v-btn
-						class="intech-btn"
-						depressed
-						color="primary"
-						dark
-						@click="forgotPassword"
-					>
-						Forgot Your Password?
-					</v-btn>
+<!--					<v-btn-->
+<!--						class="intech-btn"-->
+<!--						depressed-->
+<!--						color="primary"-->
+<!--						dark-->
+<!--						@click="forgotPassword"-->
+<!--					>-->
+<!--						Forgot Your Password?-->
+<!--					</v-btn>-->
 				</v-flex>
 			</v-layout>
 		</v-container>

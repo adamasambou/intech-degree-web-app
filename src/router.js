@@ -1,9 +1,11 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Store from './store'
-import Home from './views/Home.vue'
-import Contact from './views/Contact.vue'
-import Firebase from "firebase"
+import Vue from 'vue';
+import Router from 'vue-router';
+import Store from './store';
+import Home from './views/Home.vue';
+import Students from './views/Students/Students.vue';
+import Universities from './views/University/Universities.vue';
+import Contact from './views/Contact.vue';
+import Firebase from "firebase";
 
 Vue.use(Router)
 
@@ -19,16 +21,16 @@ export default new Router({
 			name: 'home',
 			component: Home
 		},
-		// {
-		// 	path: '/students',
-		// 	name: 'students',
-		// 	component: Students
-		// },
-		// {
-		// 	path: '/universities',
-		// 	name: 'universities',
-		// 	component: Universities
-		// },
+		{
+			path: '/students',
+			name: 'students',
+			component: Students
+		},
+		{
+			path: '/universities',
+			name: 'universities',
+			component: Universities
+		},
 		{
 			path: '/contact',
 			name: 'contact',
